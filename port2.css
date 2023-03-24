@@ -316,6 +316,7 @@ label {
 }
 
 
+
 .projetos-future div {
 height: 20rem;
   width: 30%;
@@ -388,6 +389,43 @@ img {
 #park:hover {
     transform: scale(1.1);
     overflow: visible;
+}
+
+/* RESPONSSIVEEEEEEL */
+
+@media only screen and (max-width: 1200px) {
+  header {
+    left: 0;
+  }
+  body {
+    width: 12.00rem;
+  }
+  .cabeçalho {
+    
+    gap: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .cabeçalho a {
+    font-size: 1.4rem;
+  }
+
+  .sobre-mim {
+    height: auto;
+    width: 100%;
+    left: 0;
+    top: 20rem;
+  }
+  .sobre-h1 {
+    font-size: 3rem;
+  }
+  .sobre-p {
+    font-size: 1.5rem;
+  }
+  
+  .creditos {
+    font-size: 1.5rem;
+  }
 }
 
 
