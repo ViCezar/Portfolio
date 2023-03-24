@@ -34,8 +34,7 @@ body {
   font-size: 1.6rem;
   font-family: "Inter" sans-serif;
   transition: background 0.2s linear;
-  justify-content: center;
-  align-items: center;
+  width:100vh;
   overflow-y: auto;
 }
 
@@ -177,32 +176,32 @@ label {
 /* dark theme */
 #about {
   background-position: center;
-  width: 100vw;
   height: 60.0rem;
   background-color: var(--color-site);
 }
 
 .sobre-mim {
-  
   height: 15.0rem;
   width: 50.0rem;
-  position: relative;
-  top: 29.00rem;
-  left: 58rem;
+  position:relative;
+  right:-18rem;
  
 }
 
 .sobre-h1 {
   font-size: 3.5rem;
   color: var(--color-click);
-  text-align: center;
-  position: relative;
+  position: absolute;
+  left:16rem;
+ 
 }
 
 .sobre-p {
   font-size: 1.5rem;
   color: var(--color-text);
   text-align: center;
+  position: absolute;
+  bottom:0
 }
 
 #habilidades {
