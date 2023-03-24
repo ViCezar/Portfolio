@@ -83,12 +83,12 @@ contactBtn.addEventListener("click", function() {
   contactInfo.style.color = document.body.classList.contains('light') ? "black" : "#53b653"; // define a cor do texto de acordo com o tema
   alertDiv.appendChild(contactInfo);
 
-  // adicionar o botão "Fechar"
+  // adiciona o botão "Fechar"
   const closeButton = document.createElement("button");
   closeButton.innerText = "X";
   closeButton.style.position = "absolute";
   closeButton.style.bottom = "10px";
-  closeButton.style.right = "10px";
+  closeButton.style.right = "50%";
   closeButton.style.borderRadius = "20%";
   closeButton.style.backgroundColor = "#fff";
   if (document.body.classList.contains("light")) {
