@@ -490,7 +490,7 @@ font-size: 3rem;
   color:var(--color-click);
 }
 
-.moment {
+.h3-img {
   color:var(--color-click);
 }
 
@@ -498,9 +498,6 @@ font-size: 3rem;
   color:var(--color-click);
 }
 
-.future {
-  color:var(--color-click);
-}
 
 .future-img {
   color:var(--color-click);
