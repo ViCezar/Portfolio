@@ -474,6 +474,105 @@ font-size: 3rem;
 
      /*     ABOUT     */
 
+/*      SKILLS     */
+
+
+
+@media (max-width: 480px) {
+  #habilidades {
+    width:480px;
+    margin-top: 2rem;
+     
+  }
+  
+  .skill {
+    font-size: 40px;
+    position:relative;
+    text-align:center;
+    justify-content:center;
+  }
+  
+  .moment {
+    font-size: 25px;
+    position:relative;
+    text-align:center;
+    justify-content:center;
+    margin-top: 30px;
+  }
+  
+  .moment-img {
+    position:relative;
+    text-align:center;
+    font-size:40px;
+    margin-top:10px;
+  }
+  
+  .future {
+    font-size: 25px;
+    position:relative;
+    text-align:center;
+    justify-content:center;
+    margin-top: 30px;
+  }
+  
+  .future-img {
+    position:relative;
+    text-align:center;
+    font-size:40px;
+    margin-top:10px;
+  }
+  
+  
+}
+
+
+
+
+/*      SKILLS     */
+
+
+
+/*      PROJETOS     */
+
+@media (max-width: 480px){
+  #projetos {
+    width: 480px;
+    height: 100px;
+    border: solid red;
+    margin-top: 35px;
+  }
+  
+  .projetos-futuros{
+    
+    font-size: 40px;
+    position:relative;
+    text-align:center;
+    justify-content:center;
+  }
+}
+
+
+/*      PROJETOS     */
+
+
+
+/*  FOOTER   */ 
+
+@media (max-width:480px){
+  footer {
+    width:480px
+  }
+  
+  .creditos {
+    font-size: 15px;
+    position:relative;
+    text-align:center;
+    justify-content:center;
+  }
+  
+}
+
+/*  FOOTER   */ 
 
 
  
