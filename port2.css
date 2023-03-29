@@ -482,6 +482,10 @@ font-size: 3rem;
 
 /*      SKILLS     */
 
+#habilidades {
+  background: var(--color-site)
+}
+
 .skill {
   color:var(--color-click);
 }
@@ -560,6 +564,10 @@ font-size: 3rem;
 
 /*      PROJETOS     */
 
+#projetos {
+  background: var(--color-site)
+}
+
 .projetos-futuros{
   color:var(--color-click)
 }
@@ -589,6 +597,10 @@ font-size: 3rem;
 
 
 /*  FOOTER   */ 
+
+footer {
+  background: var(--color-click)
+}
 
 @media (max-width:480px){
   footer {
