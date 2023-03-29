@@ -380,12 +380,18 @@ ul, li {
 
       .conteiner-text {
       height: 5rem;
+      position:relative;
+      text-align:center;
       justify-content:center;
-      align-items: center;
-      position: relative;
       top: 7rem;
-      left: 0;
+      left: 20px;
       font-size: 24px;
+      }
+      
+      #social {
+      position:relative;
+      text-align:center;
+      left:65px;
       }
     }
 
