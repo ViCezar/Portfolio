@@ -482,6 +482,26 @@ font-size: 3rem;
 
 /*      SKILLS     */
 
+.skill {
+  color:var(--color-click);
+}
+
+.moment {
+  color:var(--color-click);
+}
+
+.moment-img {
+  color:var(--color-click);
+}
+
+.future {
+  color:var(--color-click);
+}
+
+.future-img {
+  color:var(--color-click);
+}
+
 
 
 @media (max-width: 480px) {
@@ -539,6 +559,12 @@ font-size: 3rem;
 
 
 /*      PROJETOS     */
+
+.projetos-futuros{
+  color:var(--color-click)
+}
+
+
 
 @media (max-width: 480px){
   #projetos {
