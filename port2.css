@@ -1,15 +1,5 @@
 
-html {
-  --color-text: #53b653;
-  --color-click: #53b653;
-  --color-site: #131413;
-  --color-cabeçalho:#181a18; 
-  --color-moon:#1c2496;
-  --color-sun: #ffcc00;
-  --color-projeto: #1d1d1d;
-  overflow-y: scroll;
-  
-}
+
 
 .light {
   --color-text: #181a18;
@@ -19,6 +9,17 @@ html {
   --color-moon: #f6f8f6;
   --color-sun: #181a18;
   --color-projeto: #f7f7fa
+}
+:root{
+  --color-text: #53b653;
+  --color-click: #53b653;
+  --color-site: #131413;
+  --color-cabeçalho:#181a18; 
+  --color-moon:#1c2496;
+  --color-sun: #ffcc00;
+  --color-projeto: #1d1d1d;
+
+ 
 }
 
 * {
@@ -32,6 +33,7 @@ html {
 body {
   font-size: 62,5%;
   font-family: 'Roboto', sans-serif;
+  background: var(--color-site);
 }
   /*    CABEÇALHOO   */
 
@@ -782,7 +784,7 @@ height: 20rem;
   
   #projetos {
     width: 100%;
-    height: 80px;
+    height: 100px;
     padding-top: 35px;
     background-color: var(--color-site);
   }
@@ -853,7 +855,6 @@ footer {
   background: var(--color-click);
   position: relative;
   width: 100%;
-  bottom: -7rem;
   height: 5rem;
 }
 
@@ -915,6 +916,8 @@ footer {
 }
 
 /*  FOOTER   */ 
+
+
 
 
 
