@@ -929,7 +929,7 @@ footer {
 
 @media (max-width:480px){
   footer {
-    width:100%;
+    width:500px;
     bottom: 0rem;
   }
   
