@@ -239,7 +239,7 @@ ul, li {
 
 @media (max-width: 1400px) {
   .cabeçalho {
-    width: 70%;
+    width: 100%;
   position: fixed;
   display: inline-flex;
   height: 5rem;
@@ -416,8 +416,13 @@ ul, li {
       align-items: center;
       position: relative;
       top: 7rem;
-      left: 0;
+      left: 100px;
       font-size: 24px;
+      }
+
+      .social-media {
+        display: flex;
+        padding-top: 1rem;
       }
     }
 
@@ -480,7 +485,7 @@ font-size: 3rem;
   .sobre-mim {
     width: 80%;
     position: relative;
-    left: 8%;
+    left: 12%;
     font-size: 1px;
   }
 
@@ -502,9 +507,9 @@ font-size: 3rem;
   }
 
   .sobre-mim {
-    width: 420px;
+    width: 430px;
     position: relative;
-    left: 0;
+    left: 25px;
     font-size: 1px;
   }
 
@@ -682,27 +687,25 @@ font-size: 3rem;
   }
   
   .skill {
+    width: 80%;
     font-size: 40px;
     position: relative;
-    
+    text-align: center;
+    left: 50px;
   }
   
   .h3-skill {
+    width: 80%;
     font-size: 35px;
     position:relative;
-  }
-  
-  .moment-img {
-    font-size:50px;
+    left: 50px;
     
   }
   
-  .future {
-    display: none;
-  }
-  
-  .future-img {
-   display: none;
+  .moment-img {
+    width: 80%;
+    font-size:50px;
+    left: 50px;
   }
   
   
@@ -837,6 +840,23 @@ height: 20rem;
     transform: skewX(50deg) translateX(-70%);
     display: inline-block; /* A faixa é exibida como um bloco de linha */
   }
+
+.projetos-future {
+  width: 50%;
+}
+
+  .projetos-future div:before {
+    width: 40%;
+    transform: skewX(200deg) translateX(-40%);
+  }
+
+
+  .projetos-future div::after{
+    width:70%;
+    transform: translate(-46%, -10%) rotate(0deg);
+  }
+
+  
   
 }
 
@@ -849,11 +869,7 @@ height: 20rem;
   }
   
   .projetos-futuros{
-    
-    font-size: 40px;
-    position:relative;
-    text-align:center;
-    justify-content:center;
+    display: none;
   }
 }
 
@@ -895,7 +911,7 @@ footer {
 
 @media (max-width:1400px) {
   footer {
-    width: 82%;
+    width: 100%;
     bottom: -10rem;
   }
 
@@ -906,7 +922,7 @@ footer {
 
 @media (max-width:1200px) {
   footer {
-    width:95%;
+    width:100%;
     bottom: -40rem;
   }
 }
@@ -914,7 +930,7 @@ footer {
 @media (max-width:480px){
   footer {
     width:100%;
-    bottom: -40rem;
+    bottom: 0rem;
   }
   
   .creditos {
