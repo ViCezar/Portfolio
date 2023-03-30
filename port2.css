@@ -930,7 +930,7 @@ footer {
 
 @media (max-width:480px){
   footer {
-    width:110%;
+    width:480px;
     bottom: 0rem;
   }
   
