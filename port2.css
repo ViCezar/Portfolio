@@ -948,7 +948,9 @@ footer {
   left:65px;
   }
   
-      
+  .south {
+  display:none
+  }
 }
 
 /*  FOOTER   */ 
