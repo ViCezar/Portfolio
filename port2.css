@@ -237,9 +237,17 @@ ul, li {
 
 @media (max-width: 1400px) {
   .cabeçalho {
-    width: 95%;
-    overflow-x: hidden;
+    width: 70%;
+  position: fixed;
+  display: inline-flex;
+  height: 5rem;
+  justify-content:center;
+  align-items: center;
+  gap: 3.7rem;
+  z-index: 9999;
   }
+
+
 }
 
 @media (max-width: 1200px) {
@@ -439,7 +447,16 @@ font-size: 3rem;
   color: var(--color-text);
 }
 
-
+@media (max-width:1400px) {
+  #about {
+    width: 1400px;
+  }
+  
+  .sobre-mim{
+    left: 25rem;
+    
+  }
+}
 
 @media (max-width:1200px) {
 
@@ -540,11 +557,41 @@ font-size: 3rem;
 }
 
 
+@media (max-width: 1400px){
+  #habilidades {
+    width: 100%;
+  }
+
+  .skill {
+    font-size: 50px;
+    left: -8rem;
+  }
+  
+  .h3-skill {
+    font-size: 50px;
+    position:relative;
+    left: -8rem;
+  }
+  
+  .moment-img {
+    font-size:50px;
+    left: -8rem;
+  }
+  
+  .future {
+    left: -8rem;
+  }
+  
+  .future-img {
+    left: -8rem;
+  }
+
+}
+
 @media (max-width: 1200px) {
   #habilidades {
     width:100%;
     gap: 2rem;
-   
   }
   
   .skill {
@@ -720,6 +767,17 @@ height: 20rem;
   display: inline-block; /* A faixa é exibida como um bloco de linha */
 }
 
+@media (max-width: 1400px){
+  #projetos {
+    width: 100%;
+  }
+
+  .projetos-futuros {
+    width: 80%;
+  }
+}
+
+
 @media (max-width: 1200px){
   
   #projetos {
@@ -823,8 +881,12 @@ footer {
 
 @media (max-width:1400px) {
   footer {
-    width: 93%;
+    width: 82%;
     bottom: -10rem;
+  }
+
+  .creditos {
+    left: -10rem;
   }
 }
 
@@ -853,6 +915,8 @@ footer {
 }
 
 /*  FOOTER   */ 
+
+
 
 
 
