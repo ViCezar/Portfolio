@@ -470,7 +470,7 @@ font-size: 3rem;
   }
   
   .sobre-mim{
-    left: 32rem;
+    left: 25rem;
     
   }
 }
@@ -585,26 +585,26 @@ font-size: 3rem;
 
   .skill {
     font-size: 50px;
-    left: -8rem;
+    left: -5rem;
   }
   
   .h3-skill {
     font-size: 50px;
     position:relative;
-    left: -8rem;
+    left: -5rem;
   }
   
   .moment-img {
     font-size:50px;
-    left: -8rem;
+    left: -5rem;
   }
   
   .future {
-    left: -8rem;
+    left: -5rem;
   }
   
   .future-img {
-    left: -8rem;
+    left: -5rem;
   }
 
 }
