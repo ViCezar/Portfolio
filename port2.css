@@ -326,6 +326,15 @@ ul, li {
     top: 20rem;
     left: 15rem;
     font-size: 2rem;
+    width: 70%;
+  }
+
+  .social-media {
+    width: 90%;
+  }
+
+  .text {
+    width: 90%;
   }
   
   #social{
@@ -435,6 +444,8 @@ ul, li {
   top: 10rem;
 
 }
+
+
 
 .sobre-h1 {
 position: relative;
