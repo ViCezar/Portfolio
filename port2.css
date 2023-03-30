@@ -503,7 +503,7 @@ font-size: 3rem;
 @media (max-width:480px) {
 
   #about {
-    height:auto;
+    height:300px;
     width: 480px;
   }
 
@@ -935,7 +935,7 @@ footer {
   }
   
   .creditos {
-    width: auto;
+    left:20px;
     font-size: 15px;
     position:relative;
     text-align:center;
