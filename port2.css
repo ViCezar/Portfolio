@@ -941,7 +941,10 @@ footer {
     text-align:center;
     justify-content:center;
   }
-
+ 
+  .site {
+  width:480px;
+  }
   
       
 }
