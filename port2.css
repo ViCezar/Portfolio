@@ -821,6 +821,13 @@ footer {
   overflow: visible;
 }
 
+@media (max-width:1400px) {
+  footer {
+    width: 93%;
+    bottom: -10rem;
+  }
+}
+
 @media (max-width:1200px) {
   footer {
     width:95%;
