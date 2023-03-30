@@ -79,6 +79,7 @@ contactBtn.addEventListener("click", function() {
 
   const contactInfo = document.createElement("p");
   contactInfo.innerText = "Telefone: (43)99123-3515\nE-mail: viniciuscezarvp@hotmail.com";
+  contactInfo.style.fontSize = "25px"
   contactInfo.style.textAlign = "center"; // centraliza o parágrafo
   contactInfo.style.color = document.body.classList.contains('light') ? "black" : "#53b653"; // define a cor do texto de acordo com o tema
   alertDiv.appendChild(contactInfo);
