@@ -604,39 +604,6 @@ font-size: 3rem;
 @media (max-width: 1200px) {
   #habilidades {
     width:100%;
-    gap: 2rem;
-  }
-  
-  .skill {
-    font-size: 50px;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .h3-skill {
-    font-size: 50px;
-    position:relative;
-  }
-  
-  .moment-img {
-    font-size:50px;
-    
-  }
-  
-  .future {
-    display: none;
-  }
-  
-  .future-img {
-   display: none;
-  }
-}
-
-
-@media (max-width: 1200px) {
-  #habilidades {
-    width:100%;
     display: flex;
     gap: 2rem;
     padding-top: 12rem;
