@@ -320,6 +320,7 @@ ul, li {
   
   h1,h3 {
     color: var(--color-text);
+    width: 90%;
   }  
   .conteiner-text {
     position: relative;
@@ -445,8 +446,6 @@ ul, li {
 
 }
 
-
-
 .sobre-h1 {
 position: relative;
 text-align: center;
@@ -533,22 +532,24 @@ font-size: 3rem;
 }
 
 .skill {
+  width: 100%;
   color:var(--color-click);
-  position:relative;
-    text-align:center;
-    justify-content:center;
+  position: relative;
+  text-align: center;
     font-size: 50px;
 }
 
 .h3-skill {
+  width: 100%;
   color:var(--color-click);
   position:relative;
-    text-align:center;
-    justify-content:center;
-    font-size: 50px;
+  text-align:center;
+  
+  font-size: 50px;
 }
 
 .moment-img {
+  width: 100%;
   color:var(--color-click);
   position:relative;
   text-align:center;
@@ -558,6 +559,7 @@ font-size: 3rem;
 
 
 .future-img {
+  width: 100%;
   color:var(--color-click);
   position:relative;
     text-align:center;
@@ -566,7 +568,7 @@ font-size: 3rem;
 }
 
 #skill-img:hover {
-  font-size: 60px;
+  font-size: 55px;
 }
 
 
