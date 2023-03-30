@@ -237,7 +237,7 @@ ul, li {
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .cabeçalho {
     width: 100%;
   position: fixed;
@@ -464,9 +464,9 @@ font-size: 3rem;
   color: var(--color-text);
 }
 
-@media (max-width:1400px) {
+@media (max-width:1440px) {
   #about {
-    width: 1400px;
+    width: 100%;
   }
   
   .sobre-mim{
@@ -578,7 +578,7 @@ font-size: 3rem;
 }
 
 
-@media (max-width: 1400px){
+@media (max-width: 1440px){
   #habilidades {
     width: 100%;
   }
@@ -786,7 +786,7 @@ height: 20rem;
   display: inline-block; /* A faixa é exibida como um bloco de linha */
 }
 
-@media (max-width: 1400px){
+@media (max-width: 1440px){
   #projetos {
     width: 100%;
   }
@@ -910,7 +910,7 @@ footer {
   overflow: visible;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1440px) {
   footer {
     width: 100%;
     bottom: -10rem;
