@@ -598,14 +598,6 @@ font-size: 3rem;
     font-size:50px;
     
   }
-  
-  .future {
-    
-  }
-  
-  .future-img {
-    
-  }
 
 }
 
@@ -792,7 +784,7 @@ height: 20rem;
   }
 
   .projetos-futuros {
-    width: 80%;
+    width: 100%;
   }
 }
 
