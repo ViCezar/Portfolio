@@ -889,7 +889,7 @@ footer {
   #park {
     display:none;
 }
-
+}
 @media (max-width:480px){
   footer {
     width:480px;
