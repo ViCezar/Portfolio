@@ -1,7 +1,3 @@
-
-
-
-
 .light {
   --color-text: #181a18;
   --color-click: #53b653;
@@ -437,7 +433,7 @@ ul, li {
 
     #about {
       background: var(--color-site);
-      height: 35rem;
+      height: 42rem;
       width: 100%;
       overflow: hidden;
       padding-top: 7rem;
@@ -531,281 +527,224 @@ font-size: 3rem;
 /*      SKILLS     */
 
 #habilidades {
-  background: var(--color-site);
-  display: flex;
-  justify-content: space-around;
-  padding-top: 20rem;
-  height: 48rem;
+  width: 100%;
+  height: 50.0rem;
+  position: relative;
 }
 
-.skill {
-  width: 100%;
-  color:var(--color-click);
+
+#habilidades h1 {
   position: absolute;
   text-align: center;
-    font-size: 50px;
-    top: 95rem;
+  top: 10rem;
+  left: 5rem;
+  font-size: 3rem;
+  color: var(--color-click);
 }
 
-.h3-skill {
+#habilidades i {
+  font-size: 5rem;
+}
+
+#linguagens {
+  color: var(--color-click);
+  display: grid;
+  position: absolute;
+  text-align: center;
+  width: 12rem;
+  gap: 1rem;
+  padding: 0.4rem;
+}
+
+#habilidades p {
+  color: var(--color-text);
+}
+
+.html {
+  top: 19rem;
+  left: 15rem;
+}
+
+.css {
+  top: 19rem;
+  left: 30rem;
+}
+
+.javascript {
+  top: 19rem;
+  left: 45rem;
+}
+
+.react {
+  top: 19rem;
+  left: 60rem;
+}
+
+.node {
+  top: 19rem;
+  left: 75rem;
+}
+
+.sql {
+  top: 19rem;
+  left: 90rem;
+}
+
+.java {
+  top: 41rem;
+  left: 37rem;
+}
+
+.python {
+  top: 41rem;
+  left: 53rem;
+}
+
+.php {
+  top: 41rem;
+  left: 69rem;
+}
+
+#linguagens:before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 3px;
   width: 100%;
-  color:var(--color-click);
-  position:absolute;
-  font-size: 50px;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid transparent;
+  box-sizing: border-box;
 }
 
-.moment-img {
+#linguagens:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
   width: 100%;
-  color:var(--color-click);
-  position:relative;
-  text-align:center;
-  display: flex;
-  font-size: 50px;
-  top: 150px;
-  height: 300px;
+  height: 4px;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
 }
 
-
-.future-img {
-  width: 100%;
-  color:var(--color-click);
-  position:relative;
-  text-align:center;
-  display: flex;
-  font-size: 50px;
-  top: 150px;
-  height: 300px;
-}
-
-#skill-img {
+#linguagens:hover {
   box-shadow: 0 5px 15px var(--color-click);
-  animation: light 2s linear infinite;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  margin-top: 150px;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 2rem;
 }
 
-@keyframes light {
-  0% {
-    box-shadow: 0 0 0 var(--color-click);
-  }
-  50% {
-    box-shadow: 0 0 20px var(--color-click);
-  }
-  100% {
-    box-shadow: 0 0 0 var(--color-click);
-  }
+#linguagens:hover:before {
+  border-color: var(--color-click);
+  height: 100%;
+  transform: translateX(0);
+  transition: .5s transform linear, .5s height linear .5s;
 }
 
-
-#skill-img:hover {
-  font-size: 55px;
+#linguagens:hover:after {
+  border-color: var(--color-click);
+  height: 100%;
+  transform: translateX(0);
+  transition: .5s transform linear, .5s height linear .5s;
 }
 
-
-@media (max-width =< 1440px){
+@media (max-width : 1200px){
   #habilidades {
     width: 100%;
   }
 
-  .h3-skill {
-    width: 100%;
-    color:var(--color-click);
-    position:absolute;
-    font-size: 50px;
+  .html {
+    left: 1rem;
   }
-  
-  .moment-img {
-    width: 100%;
-    color:var(--color-click);
-    position:relative;
-    text-align:center;
-    display: flex;
-    font-size: 50px;
-    top: 150px;
-    height: 300px;
+
+  .css{
+    left: 16rem;
   }
-  
-  
-  .future-img {
-    width: 100%;
-    color:var(--color-click);
-    position:relative;
-    text-align:center;
-    display: flex;
-    font-size: 50px;
-    top: 150px;
-    height: 300px;
+
+  .javascript{
+    left: 31rem;
   }
-  
-  #skill-img {
-    box-shadow: 0 5px 15px var(--color-click);
-    animation: light 2s linear infinite;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin-top: 150px;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 2rem;
+
+  .react{
+    left: 47rem;
   }
-  
-  @keyframes light {
-    0% {
-      box-shadow: 0 0 0 var(--color-click);
-    }
-    50% {
-      box-shadow: 0 0 20px var(--color-click);
-    }
-    100% {
-      box-shadow: 0 0 0 var(--color-click);
-    }
+
+  .node{
+    left: 63rem;
+  }
+
+  .sql{
+    top: 41rem;
+    left: 1rem;
+  }
+
+  .java{
+    left: 16rem;
+  }
+
+  .python{
+    left: 31rem;
+  }
+
+  .php{
+    left: 47rem;
   }
 
 }
 
-@media (max-width : 1200px) {
+@media (max-width : 480px){
   #habilidades {
-    width:100%;
-    display: flex;
-    gap: 2rem;
-    padding-top: 12rem;
-    padding-bottom: 7rem;
-  }
-  
-  .h3-skill {
     width: 100%;
-    color:var(--color-click);
-    position:absolute;
-    font-size: 50px;
   }
-  
-  .moment-img {
-    width: 100%;
-    color:var(--color-click);
-    position:relative;
-    text-align:center;
-    display: flex;
-    font-size: 50px;
-    top: 150px;
-    height: 300px;
+
+  #habilidades h1 {
+    left: 2rem;
   }
-  
-  
-  .future-img {
-    width: 100%;
-    color:var(--color-click);
-    position:relative;
-    text-align:center;
-    display: flex;
-    font-size: 50px;
-    top: 150px;
-    height: 300px;
+
+  .html {
+    left: 1rem;
   }
-  
-  #skill-img {
-    box-shadow: 0 5px 15px var(--color-click);
-    animation: light 2s linear infinite;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin-top: 150px;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 2rem;
+
+  .css{
+    left: 16rem;
   }
-  
-  @keyframes light {
-    0% {
-      box-shadow: 0 0 0 var(--color-click);
-    }
-    50% {
-      box-shadow: 0 0 20px var(--color-click);
-    }
-    100% {
-      box-shadow: 0 0 0 var(--color-click);
-    }
+
+  .javascript{
+    top: 38rem;
+    left: 1rem;
   }
+
+  .react{
+    top: 38rem;
+    left: 16rem;
+  }
+
+  .node{
+    top: 59rem;
+    left: 1rem;
+  }
+
+  .sql{
+    top: 59rem;
+    left: 16rem;
+    
+  }
+
+  .java{
+    top: 81rem;
+    left: 1rem;
+  }
+
+  .python{
+    top: 81rem;
+    left: 16rem;
+  }
+
+  .php{
+    top: 95rem;
+    left: 1rem;
+  }
+
 }
-
-
-@media (max-width : 480px) {
-  #habilidades {
-    width:480px;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    padding-top: 12rem;
-  }
-
-  .skill {
-    top: 80rem;
-  }
-  
-  .h3-skill {
-    width: 100%;
-    color:var(--color-click);
-    position:absolute;
-    font-size: 50px;
-  }
-  
-  .moment-img {
-    width: 100%;
-    color:var(--color-click);
-    position:relative;
-    text-align:center;
-    display: flex;
-    font-size: 50px;
-    top: 150px;
-    height: 300px;
-    margin-left: -1rem;
-  }
-  
-  
-  .future-img {
-    width: 100%;
-    color:var(--color-click);
-    position:relative;
-    text-align:center;
-    display: flex;
-    font-size: 50px;
-    top: 180px;
-    height: 300px;
-    display: none;
-  }
-  
-  #skill-img {
-    box-shadow: 0 5px 15px var(--color-click);
-    animation: light 2s linear infinite;
-    width: 100px;
-    height: 100px;
-    display: flex;
-    margin-top: 150px;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: 2rem;
-  }
-  
-  @keyframes light {
-    0% {
-      box-shadow: 0 0 0 var(--color-click);
-    }
-    50% {
-      box-shadow: 0 0 20px var(--color-click);
-    }
-    100% {
-      box-shadow: 0 0 0 var(--color-click);
-    }
-  }
-
-  
-  
-}
-
 
 
 
@@ -819,7 +758,7 @@ font-size: 3rem;
   background: var(--color-site);
   width: 100%;
   height: 50.0rem;
-  padding-top: 7rem;
+  margin-top: 10rem;
 }
 
 .projetos-futuros {
@@ -1029,7 +968,7 @@ footer {
 @media (max-width:480px){
   footer {
     width:480px;
-    bottom: 0rem;
+    bottom: -52rem;
   }
   
   .creditos {
@@ -1050,16 +989,3 @@ footer {
 }
 
 /*  FOOTER   */ 
-
-
-
-
-
-
-
-
-
-
- 
-  
-  
