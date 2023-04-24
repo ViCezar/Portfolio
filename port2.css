@@ -249,7 +249,7 @@ ul, li {
 
 }
 
-@media (max-width : 1200px) {
+@media (max-width : 1280px) {
   
   .cabeçalho {
     background: var(--color-cabeçalho);
@@ -472,7 +472,7 @@ font-size: 3rem;
   }
 }
 
-@media (max-width : 1200px) {
+@media (max-width : 1280px) {
 
   #about {
     width: 1200px;
@@ -647,7 +647,7 @@ font-size: 3rem;
   transition: .5s transform linear, .5s height linear .5s;
 }
 
-@media (max-width : 1200px){
+@media (max-width : 1280px){
   #habilidades {
     width: 100%;
   }
@@ -830,7 +830,7 @@ height: 20rem;
 }
 
 
-@media (max-width : 1200px){
+@media (max-width : 1280px){
   
   #projetos {
     width: 100%;
@@ -954,7 +954,7 @@ footer {
   }
 }
 
-@media (max-width:1200px) {
+@media (max-width:1280px) {
   footer {
     width:100%;
     bottom: -40rem;
