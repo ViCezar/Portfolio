@@ -257,7 +257,7 @@ ul, li {
     height: 5rem;
     justify-content:center;
     align-items: center;
-    position: relative;
+    position: fixed;
     gap: 5px;
     overflow-x: hidden;
   }
